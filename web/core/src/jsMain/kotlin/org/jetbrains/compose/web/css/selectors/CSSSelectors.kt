@@ -12,7 +12,7 @@ sealed class Nth {
             b != null -> "$b"
             else -> ""
         }
-    }
+    } : Nth()
     object Odd : Nth() {
         override fun toString(): String = "odd"
     }
